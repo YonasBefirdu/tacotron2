@@ -274,6 +274,7 @@ if __name__ == '__main__':
     parser.add_argument('--hparams', type=str,
                         required=False, help='comma separated name=value pairs')
 
+    parser.add_argument('--hparams', type=str)
     args = parser.parse_args()
     hparams = create_hparams(args.hparams)
 
