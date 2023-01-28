@@ -33,8 +33,8 @@ def create_hparams(hparams_string=None, verbose=False):
         "load_mel_from_disk":False,
         "load_phone_from_disk":True,
 
-        "training_files":'',
-        "validation_files":'',
+        "training_files":'filelists/train_list.txt',
+        "validation_files":'filelists/val_list.txt',
 
         "text_cleaners":['english_cleaners'],
 
